@@ -1,0 +1,616 @@
+fileFormatVersion: 2
+guid: b99c1af13f3f2d94383df75f3763c31a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bola
+    100004: Camera
+    100006: combate
+    100008: gol
+    100010: Head
+    100012: Head 1
+    100014: Head_end
+    100016: Head_end 1
+    100018: Hips
+    100020: Hips 1
+    100022: ik_arm_left
+    100024: ik_arm_left 1
+    100026: ik_arm_left_end
+    100028: ik_arm_left_end 1
+    100030: ik_arm_right
+    100032: ik_arm_right 1
+    100034: ik_arm_right_end
+    100036: ik_arm_right_end 1
+    100038: ik_f1_left
+    100040: ik_f1_left 1
+    100042: ik_f1_right
+    100044: ik_f1_right 1
+    100046: ik_f2_left
+    100048: ik_f2_left 1
+    100050: ik_f2_left_end
+    100052: ik_f2_left_end 1
+    100054: ik_f2_right
+    100056: ik_f2_right 1
+    100058: ik_f2_right_end
+    100060: ik_f2_right_end 1
+    100062: ik_hand_left
+    100064: ik_hand_left 1
+    100066: ik_hand_left_end
+    100068: ik_hand_left_end 1
+    100070: ik_hand_right
+    100072: ik_hand_right 1
+    100074: ik_hand_right_end
+    100076: ik_hand_right_end 1
+    100078: ik_leg_left
+    100080: ik_leg_left 1
+    100082: ik_leg_left_end
+    100084: ik_leg_left_end 1
+    100086: ik_leg_right
+    100088: ik_leg_right 1
+    100090: ik_leg_right_end
+    100092: ik_leg_right_end 1
+    100094: inim_ab_dir.000
+    100096: inim_ab_dir.001
+    100098: inim_ab_esq.000
+    100100: inim_ab_esq.001
+    100102: inim_b_dir.000
+    100104: inim_b_dir.001
+    100106: inim_b_esq.000
+    100108: inim_b_esq.001
+    100110: inim_c_dir.000
+    100112: inim_c_dir.001
+    100114: inim_c_esq.000
+    100116: inim_c_esq.001
+    100118: inim_cab.000
+    100120: inim_cab.001
+    100122: inim_m_dir.000
+    100124: inim_m_dir.001
+    100126: inim_m_esq.000
+    100128: inim_m_esq.001
+    100130: inim_ombros.000
+    100132: inim_ombros.001
+    100134: inim_p_dir.000
+    100136: inim_p_dir.001
+    100138: inim_p_esq.000
+    100140: inim_p_esq.001
+    100142: inim_pe_dir.000
+    100144: inim_pe_dir.001
+    100146: inim_pe_esq.000
+    100148: inim_pe_esq.001
+    100150: inim_quad.000
+    100152: inim_quad.001
+    100154: jogador
+    100156: jogador.001
+    100158: Lamp
+    100160: LeftArm
+    100162: LeftArm 1
+    100164: LeftFoot
+    100166: LeftFoot 1
+    100168: LeftForeArm
+    100170: LeftForeArm 1
+    100172: LeftHand
+    100174: LeftHand 1
+    100176: LeftHandIndex1
+    100178: LeftHandIndex1 1
+    100180: LeftHandIndex2
+    100182: LeftHandIndex2 1
+    100184: LeftHandIndex3
+    100186: LeftHandIndex3 1
+    100188: LeftHandIndex3_end
+    100190: LeftHandIndex3_end 1
+    100192: LeftHandMiddle1
+    100194: LeftHandMiddle1 1
+    100196: LeftHandMiddle2
+    100198: LeftHandMiddle2 1
+    100200: LeftHandMiddle3
+    100202: LeftHandMiddle3 1
+    100204: LeftHandMiddle3_end
+    100206: LeftHandMiddle3_end 1
+    100208: LeftHandPinky1
+    100210: LeftHandPinky1 1
+    100212: LeftHandPinky2
+    100214: LeftHandPinky2 1
+    100216: LeftHandPinky3
+    100218: LeftHandPinky3 1
+    100220: LeftHandPinky3_end
+    100222: LeftHandPinky3_end 1
+    100224: LeftHandRing1
+    100226: LeftHandRing1 1
+    100228: LeftHandRing2
+    100230: LeftHandRing2 1
+    100232: LeftHandRing3
+    100234: LeftHandRing3 1
+    100236: LeftHandRing3_end
+    100238: LeftHandRing3_end 1
+    100240: LeftHandThumb1
+    100242: LeftHandThumb1 1
+    100244: LeftHandThumb2
+    100246: LeftHandThumb2 1
+    100248: LeftHandThumb3
+    100250: LeftHandThumb3 1
+    100252: LeftHandThumb3_end
+    100254: LeftHandThumb3_end 1
+    100256: LeftLeg
+    100258: LeftLeg 1
+    100260: LeftShoulder
+    100262: LeftShoulder 1
+    100264: LeftToeBase
+    100266: LeftToeBase 1
+    100268: LeftToeBase_end
+    100270: LeftToeBase_end 1
+    100272: LeftUpLeg
+    100274: LeftUpLeg 1
+    100276: Neck
+    100278: Neck 1
+    100280: RightArm
+    100282: RightArm 1
+    100284: RightFoot
+    100286: RightFoot 1
+    100288: RightForeArm
+    100290: RightForeArm 1
+    100292: RightHand
+    100294: RightHand 1
+    100296: RightHandIndex1
+    100298: RightHandIndex1 1
+    100300: RightHandIndex2
+    100302: RightHandIndex2 1
+    100304: RightHandIndex3
+    100306: RightHandIndex3 1
+    100308: RightHandIndex3_end
+    100310: RightHandIndex3_end 1
+    100312: RightHandMiddle1
+    100314: RightHandMiddle1 1
+    100316: RightHandMiddle2
+    100318: RightHandMiddle2 1
+    100320: RightHandMiddle3
+    100322: RightHandMiddle3 1
+    100324: RightHandMiddle3_end
+    100326: RightHandMiddle3_end 1
+    100328: RightHandPinky1
+    100330: RightHandPinky1 1
+    100332: RightHandPinky2
+    100334: RightHandPinky2 1
+    100336: RightHandPinky3
+    100338: RightHandPinky3 1
+    100340: RightHandPinky3_end
+    100342: RightHandPinky3_end 1
+    100344: RightHandRing1
+    100346: RightHandRing1 1
+    100348: RightHandRing2
+    100350: RightHandRing2 1
+    100352: RightHandRing3
+    100354: RightHandRing3 1
+    100356: RightHandRing3_end
+    100358: RightHandRing3_end 1
+    100360: RightHandThumb1
+    100362: RightHandThumb1 1
+    100364: RightHandThumb2
+    100366: RightHandThumb2 1
+    100368: RightHandThumb3
+    100370: RightHandThumb3 1
+    100372: RightHandThumb3_end
+    100374: RightHandThumb3_end 1
+    100376: RightLeg
+    100378: RightLeg 1
+    100380: RightShoulder
+    100382: RightShoulder 1
+    100384: RightToeBase
+    100386: RightToeBase 1
+    100388: RightToeBase_end
+    100390: RightToeBase_end 1
+    100392: RightUpLeg
+    100394: RightUpLeg 1
+    100396: solo
+    100398: Spine
+    100400: Spine 1
+    100402: Spine1
+    100404: Spine1 1
+    100406: Spine2
+    100408: Spine2 1
+    100410: "\xC1rea"
+    400000: //RootNode
+    400002: bola
+    400004: Camera
+    400006: combate
+    400008: gol
+    400010: Head
+    400012: Head 1
+    400014: Head_end
+    400016: Head_end 1
+    400018: Hips
+    400020: Hips 1
+    400022: ik_arm_left
+    400024: ik_arm_left 1
+    400026: ik_arm_left_end
+    400028: ik_arm_left_end 1
+    400030: ik_arm_right
+    400032: ik_arm_right 1
+    400034: ik_arm_right_end
+    400036: ik_arm_right_end 1
+    400038: ik_f1_left
+    400040: ik_f1_left 1
+    400042: ik_f1_right
+    400044: ik_f1_right 1
+    400046: ik_f2_left
+    400048: ik_f2_left 1
+    400050: ik_f2_left_end
+    400052: ik_f2_left_end 1
+    400054: ik_f2_right
+    400056: ik_f2_right 1
+    400058: ik_f2_right_end
+    400060: ik_f2_right_end 1
+    400062: ik_hand_left
+    400064: ik_hand_left 1
+    400066: ik_hand_left_end
+    400068: ik_hand_left_end 1
+    400070: ik_hand_right
+    400072: ik_hand_right 1
+    400074: ik_hand_right_end
+    400076: ik_hand_right_end 1
+    400078: ik_leg_left
+    400080: ik_leg_left 1
+    400082: ik_leg_left_end
+    400084: ik_leg_left_end 1
+    400086: ik_leg_right
+    400088: ik_leg_right 1
+    400090: ik_leg_right_end
+    400092: ik_leg_right_end 1
+    400094: inim_ab_dir.000
+    400096: inim_ab_dir.001
+    400098: inim_ab_esq.000
+    400100: inim_ab_esq.001
+    400102: inim_b_dir.000
+    400104: inim_b_dir.001
+    400106: inim_b_esq.000
+    400108: inim_b_esq.001
+    400110: inim_c_dir.000
+    400112: inim_c_dir.001
+    400114: inim_c_esq.000
+    400116: inim_c_esq.001
+    400118: inim_cab.000
+    400120: inim_cab.001
+    400122: inim_m_dir.000
+    400124: inim_m_dir.001
+    400126: inim_m_esq.000
+    400128: inim_m_esq.001
+    400130: inim_ombros.000
+    400132: inim_ombros.001
+    400134: inim_p_dir.000
+    400136: inim_p_dir.001
+    400138: inim_p_esq.000
+    400140: inim_p_esq.001
+    400142: inim_pe_dir.000
+    400144: inim_pe_dir.001
+    400146: inim_pe_esq.000
+    400148: inim_pe_esq.001
+    400150: inim_quad.000
+    400152: inim_quad.001
+    400154: jogador
+    400156: jogador.001
+    400158: Lamp
+    400160: LeftArm
+    400162: LeftArm 1
+    400164: LeftFoot
+    400166: LeftFoot 1
+    400168: LeftForeArm
+    400170: LeftForeArm 1
+    400172: LeftHand
+    400174: LeftHand 1
+    400176: LeftHandIndex1
+    400178: LeftHandIndex1 1
+    400180: LeftHandIndex2
+    400182: LeftHandIndex2 1
+    400184: LeftHandIndex3
+    400186: LeftHandIndex3 1
+    400188: LeftHandIndex3_end
+    400190: LeftHandIndex3_end 1
+    400192: LeftHandMiddle1
+    400194: LeftHandMiddle1 1
+    400196: LeftHandMiddle2
+    400198: LeftHandMiddle2 1
+    400200: LeftHandMiddle3
+    400202: LeftHandMiddle3 1
+    400204: LeftHandMiddle3_end
+    400206: LeftHandMiddle3_end 1
+    400208: LeftHandPinky1
+    400210: LeftHandPinky1 1
+    400212: LeftHandPinky2
+    400214: LeftHandPinky2 1
+    400216: LeftHandPinky3
+    400218: LeftHandPinky3 1
+    400220: LeftHandPinky3_end
+    400222: LeftHandPinky3_end 1
+    400224: LeftHandRing1
+    400226: LeftHandRing1 1
+    400228: LeftHandRing2
+    400230: LeftHandRing2 1
+    400232: LeftHandRing3
+    400234: LeftHandRing3 1
+    400236: LeftHandRing3_end
+    400238: LeftHandRing3_end 1
+    400240: LeftHandThumb1
+    400242: LeftHandThumb1 1
+    400244: LeftHandThumb2
+    400246: LeftHandThumb2 1
+    400248: LeftHandThumb3
+    400250: LeftHandThumb3 1
+    400252: LeftHandThumb3_end
+    400254: LeftHandThumb3_end 1
+    400256: LeftLeg
+    400258: LeftLeg 1
+    400260: LeftShoulder
+    400262: LeftShoulder 1
+    400264: LeftToeBase
+    400266: LeftToeBase 1
+    400268: LeftToeBase_end
+    400270: LeftToeBase_end 1
+    400272: LeftUpLeg
+    400274: LeftUpLeg 1
+    400276: Neck
+    400278: Neck 1
+    400280: RightArm
+    400282: RightArm 1
+    400284: RightFoot
+    400286: RightFoot 1
+    400288: RightForeArm
+    400290: RightForeArm 1
+    400292: RightHand
+    400294: RightHand 1
+    400296: RightHandIndex1
+    400298: RightHandIndex1 1
+    400300: RightHandIndex2
+    400302: RightHandIndex2 1
+    400304: RightHandIndex3
+    400306: RightHandIndex3 1
+    400308: RightHandIndex3_end
+    400310: RightHandIndex3_end 1
+    400312: RightHandMiddle1
+    400314: RightHandMiddle1 1
+    400316: RightHandMiddle2
+    400318: RightHandMiddle2 1
+    400320: RightHandMiddle3
+    400322: RightHandMiddle3 1
+    400324: RightHandMiddle3_end
+    400326: RightHandMiddle3_end 1
+    400328: RightHandPinky1
+    400330: RightHandPinky1 1
+    400332: RightHandPinky2
+    400334: RightHandPinky2 1
+    400336: RightHandPinky3
+    400338: RightHandPinky3 1
+    400340: RightHandPinky3_end
+    400342: RightHandPinky3_end 1
+    400344: RightHandRing1
+    400346: RightHandRing1 1
+    400348: RightHandRing2
+    400350: RightHandRing2 1
+    400352: RightHandRing3
+    400354: RightHandRing3 1
+    400356: RightHandRing3_end
+    400358: RightHandRing3_end 1
+    400360: RightHandThumb1
+    400362: RightHandThumb1 1
+    400364: RightHandThumb2
+    400366: RightHandThumb2 1
+    400368: RightHandThumb3
+    400370: RightHandThumb3 1
+    400372: RightHandThumb3_end
+    400374: RightHandThumb3_end 1
+    400376: RightLeg
+    400378: RightLeg 1
+    400380: RightShoulder
+    400382: RightShoulder 1
+    400384: RightToeBase
+    400386: RightToeBase 1
+    400388: RightToeBase_end
+    400390: RightToeBase_end 1
+    400392: RightUpLeg
+    400394: RightUpLeg 1
+    400396: solo
+    400398: Spine
+    400400: Spine 1
+    400402: Spine1
+    400404: Spine1 1
+    400406: Spine2
+    400408: Spine2 1
+    400410: "\xC1rea"
+    2000000: Camera
+    2100000: Material.003
+    2100002: Material.002
+    2100004: Material
+    2100006: Material.004
+    2100008: Material.001
+    2100010: Platonic
+    2100012: Material.006
+    2100014: Material.008
+    2300000: bola
+    2300002: gol
+    2300004: inim_ab_dir.000
+    2300006: inim_ab_dir.001
+    2300008: inim_ab_esq.000
+    2300010: inim_ab_esq.001
+    2300012: inim_b_dir.000
+    2300014: inim_b_dir.001
+    2300016: inim_b_esq.000
+    2300018: inim_b_esq.001
+    2300020: inim_c_dir.000
+    2300022: inim_c_dir.001
+    2300024: inim_c_esq.000
+    2300026: inim_c_esq.001
+    2300028: inim_cab.000
+    2300030: inim_cab.001
+    2300032: inim_m_dir.000
+    2300034: inim_m_dir.001
+    2300036: inim_m_esq.000
+    2300038: inim_m_esq.001
+    2300040: inim_ombros.000
+    2300042: inim_ombros.001
+    2300044: inim_p_dir.000
+    2300046: inim_p_dir.001
+    2300048: inim_p_esq.000
+    2300050: inim_p_esq.001
+    2300052: inim_pe_dir.000
+    2300054: inim_pe_dir.001
+    2300056: inim_pe_esq.000
+    2300058: inim_pe_esq.001
+    2300060: inim_quad.000
+    2300062: inim_quad.001
+    2300064: solo
+    3300000: bola
+    3300002: gol
+    3300004: inim_ab_dir.000
+    3300006: inim_ab_dir.001
+    3300008: inim_ab_esq.000
+    3300010: inim_ab_esq.001
+    3300012: inim_b_dir.000
+    3300014: inim_b_dir.001
+    3300016: inim_b_esq.000
+    3300018: inim_b_esq.001
+    3300020: inim_c_dir.000
+    3300022: inim_c_dir.001
+    3300024: inim_c_esq.000
+    3300026: inim_c_esq.001
+    3300028: inim_cab.000
+    3300030: inim_cab.001
+    3300032: inim_m_dir.000
+    3300034: inim_m_dir.001
+    3300036: inim_m_esq.000
+    3300038: inim_m_esq.001
+    3300040: inim_ombros.000
+    3300042: inim_ombros.001
+    3300044: inim_p_dir.000
+    3300046: inim_p_dir.001
+    3300048: inim_p_esq.000
+    3300050: inim_p_esq.001
+    3300052: inim_pe_dir.000
+    3300054: inim_pe_dir.001
+    3300056: inim_pe_esq.000
+    3300058: inim_pe_esq.001
+    3300060: inim_quad.000
+    3300062: inim_quad.001
+    3300064: solo
+    4300000: inim_quad.000
+    4300002: inim_ombros.000
+    4300004: inim_cab.000
+    4300006: inim_ab_esq.000
+    4300008: inim_b_esq.000
+    4300010: inim_m_esq.000
+    4300012: inim_ab_dir.000
+    4300014: inim_b_dir.000
+    4300016: inim_m_dir.000
+    4300018: inim_c_dir.000
+    4300020: inim_p_dir.000
+    4300022: inim_pe_dir.000
+    4300024: inim_c_esq.000
+    4300026: inim_p_esq.000
+    4300028: inim_pe_esq.000
+    4300030: bola
+    4300032: gol
+    4300034: inim_quad.001
+    4300036: inim_ombros.001
+    4300038: inim_cab.001
+    4300040: inim_ab_esq.001
+    4300042: inim_b_esq.001
+    4300044: inim_m_esq.001
+    4300046: inim_ab_dir.001
+    4300048: inim_b_dir.001
+    4300050: inim_m_dir.001
+    4300052: inim_c_dir.001
+    4300054: inim_p_dir.001
+    4300056: inim_pe_dir.001
+    4300058: inim_c_esq.001
+    4300060: inim_p_esq.001
+    4300062: inim_pe_esq.001
+    4300064: solo
+    7400000: jogador.001|chutar
+    7400002: jogador.001|chutar.001
+    7400004: jogador.001|correr
+    7400006: jogador.001|parado
+    7400008: jogador|chutar
+    7400010: jogador|chutar.001
+    7400012: jogador|correr
+    7400014: jogador|parado
+    9500000: //RootNode
+    10800000: Lamp
+    10800002: "\xC1rea"
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
